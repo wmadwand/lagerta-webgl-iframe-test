@@ -1,0 +1,27 @@
+# Unity WebGL gzip configuration
+<IfModule mod_mime.c>
+  RemoveType .gz
+  AddEncoding gzip .gz
+  
+  # Set MIME types for Unity WebGL files
+  AddType application/gzip .data.gz
+  AddType application/wasm .wasm.gz
+  AddType application/javascript .js.gz
+  AddType application/octet-stream .symbols.json.gz
+</IfModule>
+
+# Enable mod_headers if not already enabled
+<IfModule mod_headers.c>
+  # Set Content-Encoding for compressed files
+  <FilesMatch "\.(data|wasm|js|symbols\.json)\.gz$">
+    Header set Content-Encoding gzip
+  </FilesMatch>
+  
+  # Cache control
+  Header set Cache-Control "public, max-age=31536000"
+  
+  # Allow Unity Analytics (optional)
+  Header set Access-Control-Allow-Origin "*"
+  Header set Access-Control-Allow-Methods "GET, POST, OPTIONS"
+  Header set Access-Control-Allow-Headers "Content-Type"
+</IfModule>

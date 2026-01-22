@@ -1,0 +1,146 @@
+{
+    "IsProd": true,
+    "Platform": "WebGL",
+    "StoryManifestos": [
+        {
+            "StoryName": "Школа эскортниц",
+            "StoryId": 16,
+            "Url": "ES/StoryBundlesManifest.json"
+        },
+        {
+            "StoryName": "Механизм Любви",
+            "StoryId": 12,
+            "Url": "ML/StoryBundlesManifest.json"
+        },
+        {
+            "StoryName": "Холодный Ветер Перемен",
+            "StoryId": 4,
+            "Url": "HVP/StoryBundlesManifest.json"
+        },
+        {
+            "StoryName": "В Паутине Лжи",
+            "StoryId": 3,
+            "Url": "VPL/StoryBundlesManifest.json"
+        },
+        {
+            "StoryName": "Последняя Осень",
+            "StoryId": 1,
+            "Url": "PO/StoryBundlesManifest.json"
+        },
+        {
+            "StoryName": "Советское Воспитание",
+            "StoryId": 2,
+            "Url": "SV/StoryBundlesManifest.json"
+        },
+        {
+            "StoryName": "Сказание о Знахарях",
+            "StoryId": 17,
+            "Url": "SOZ/StoryBundlesManifest.json"
+        },
+        {
+            "StoryName": "Рифмы и тени",
+            "StoryId": 19,
+            "Url": "RIT/StoryBundlesManifest.json"
+        },
+        {
+            "StoryName": "Спасение Павла Дурова",
+            "StoryId": 20,
+            "Url": "SPD/StoryBundlesManifest.json"
+        },
+        {
+            "StoryName": "Я беременна!",
+            "StoryId": 21,
+            "Url": "IAP/StoryBundlesManifest.json"
+        },
+        {
+            "StoryName": "Последняя осень. Новогодний выпуск!",
+            "StoryId": 22,
+            "Url": "PON/StoryBundlesManifest.json"
+        },
+        {
+            "StoryName": "Сказание о знахарях. Навь",
+            "StoryId": 23,
+            "Url": "SOZN/StoryBundlesManifest.json"
+        },
+        {
+            "StoryName": "Предел Ночи",
+            "StoryId": 24,
+            "Url": "PN/StoryBundlesManifest.json"
+        },
+        {
+            "StoryName": "Сказание о Знахарях. Первое апреля",
+            "StoryId": 25,
+            "Url": "SOZPA/StoryBundlesManifest.json"
+        },
+        {
+            "StoryName": "Сердце Империи",
+            "StoryId": 26,
+            "Url": "CG/StoryBundlesManifest.json"
+        },
+        {
+            "StoryName": "Я не беременна!",
+            "StoryId": 27,
+            "Url": "IANP/StoryBundlesManifest.json"
+        },
+        {
+            "StoryName": "Рифмы и тени: негативы",
+            "StoryId": 28,
+            "Url": "RITN/StoryBundlesManifest.json"
+        },
+        {
+            "StoryName": "Нажми на меня",
+            "StoryId": 30,
+            "Url": "COM/StoryBundlesManifest.json"
+        },
+        {
+            "StoryName": "Между мирами",
+            "StoryId": 31,
+            "Url": "MM/StoryBundlesManifest.json"
+        },
+        {
+            "StoryName": "Пусть обзываются",
+            "StoryId": 33,
+            "Url": "KPO/StoryBundlesManifest.json"
+        },
+        {
+            "StoryName": "Ты точно хочешь кликнуть на меня",
+            "StoryId": 34,
+            "Url": "TTKNM/StoryBundlesManifest.json"
+        },
+        {
+            "StoryName": "Истанбул: цена дерзости",
+            "StoryId": 35,
+            "Url": "ITSD/StoryBundlesManifest.json"
+        },
+        {
+            "StoryName": "Скоро в Lagerta",
+            "StoryId": 36,
+            "Url": "SVL/StoryBundlesManifest.json"
+        },
+        {
+            "StoryName": "Нажми на меня на свой страх и риск",
+            "StoryId": 37,
+            "Url": "NNMNSSIR/StoryBundlesManifest.json"
+        },
+        {
+            "StoryName": "Нажми на меня 3 сентября, И ТЫ ЗНАЕШЬ, ПОЧЕМУ",
+            "StoryId": 38,
+            "Url": "NNM3SITZP/StoryBundlesManifest.json"
+        },
+        {
+            "StoryName": "Постучись в мою дверь в Москве",
+            "StoryId": 41,
+            "Url": "PVMDVM/StoryBundlesManifest.json"
+        },
+        {
+            "StoryName": "Когда просыпаются драконы",
+            "StoryId": 42,
+            "Url": "KPD/StoryBundlesManifest.json"
+        },
+        {
+            "StoryName": "Новая история",
+            "StoryId": 43,
+            "Url": "NI/StoryBundlesManifest.json"
+        }
+    ]
+}

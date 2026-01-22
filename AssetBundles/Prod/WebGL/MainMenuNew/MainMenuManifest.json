@@ -1,0 +1,240 @@
+{
+    "IsProd": true,
+    "Platform": "WebGL",
+    "LastVersion": 2,
+    "Manifestos": [
+        {
+            "LastVersion": 1,
+            "AssetBundle": {
+                "BundleName": "story_banners",
+                "BundleId": 0,
+                "BundleHierarchy": "None",
+                "BundlePriority": "Required",
+                "ContentType": "Image",
+                "BundleType": "StoryBanners",
+                "PriceType": "",
+                "LastVersion": 1,
+                "FolderVersion": 2,
+                "Url": "MainMenuNew/2/story_banners.bundle",
+                "AssetNames": []
+            }
+        },
+        {
+            "LastVersion": 1,
+            "AssetBundle": {
+                "BundleName": "story_texts",
+                "BundleId": 0,
+                "BundleHierarchy": "None",
+                "BundlePriority": "Required",
+                "ContentType": "Text",
+                "BundleType": "None",
+                "PriceType": "",
+                "LastVersion": 1,
+                "FolderVersion": 2,
+                "Url": "MainMenuNew/2/story_texts.bundle",
+                "AssetNames": []
+            }
+        },
+        {
+            "LastVersion": 1,
+            "AssetBundle": {
+                "BundleName": "stats_icons",
+                "BundleId": 0,
+                "BundleHierarchy": "None",
+                "BundlePriority": "Required",
+                "ContentType": "Image",
+                "BundleType": "StatsIcons",
+                "PriceType": "",
+                "LastVersion": 1,
+                "FolderVersion": 2,
+                "Url": "MainMenuNew/2/stats_icons.bundle",
+                "AssetNames": []
+            }
+        },
+        {
+            "LastVersion": 1,
+            "AssetBundle": {
+                "BundleName": "wardrobe_banners",
+                "BundleId": 0,
+                "BundleHierarchy": "None",
+                "BundlePriority": "Required",
+                "ContentType": "Image",
+                "BundleType": "Wardrobe",
+                "PriceType": "",
+                "LastVersion": 1,
+                "FolderVersion": 2,
+                "Url": "MainMenuNew/2/wardrobe_banners.bundle",
+                "AssetNames": []
+            }
+        },
+        {
+            "LastVersion": 1,
+            "AssetBundle": {
+                "BundleName": "wardrobe_music",
+                "BundleId": 0,
+                "BundleHierarchy": "None",
+                "BundlePriority": "Required",
+                "ContentType": "Audio",
+                "BundleType": "Wardrobe",
+                "PriceType": "",
+                "LastVersion": 1,
+                "FolderVersion": 2,
+                "Url": "MainMenuNew/2/wardrobe_music.bundle",
+                "AssetNames": []
+            }
+        },
+        {
+            "LastVersion": 1,
+            "AssetBundle": {
+                "BundleName": "story_localized_texts",
+                "BundleId": 0,
+                "BundleHierarchy": "None",
+                "BundlePriority": "Required",
+                "ContentType": "LocalizedText",
+                "BundleType": "None",
+                "PriceType": "",
+                "LastVersion": 1,
+                "FolderVersion": 2,
+                "Url": "MainMenuNew/2/story_localized_texts.bundle",
+                "AssetNames": []
+            }
+        },
+        {
+            "LastVersion": 1,
+            "AssetBundle": {
+                "BundleName": "story_banner_titles",
+                "BundleId": 0,
+                "BundleHierarchy": "None",
+                "BundlePriority": "Required",
+                "ContentType": "Image",
+                "BundleType": "StoryBanners",
+                "PriceType": "",
+                "LastVersion": 1,
+                "FolderVersion": 2,
+                "Url": "MainMenuNew/2/story_banner_titles.bundle",
+                "AssetNames": []
+            }
+        }
+    ],
+    "Seasons": {
+        "ConfigBundle": {
+            "BundleName": "seasons_configs",
+            "BundleId": 0,
+            "BundleHierarchy": "None",
+            "BundlePriority": "Required",
+            "ContentType": "Text",
+            "BundleType": "SeasonBanners",
+            "PriceType": "",
+            "LastVersion": 1,
+            "FolderVersion": 2,
+            "Url": "MainMenuNew/2/seasons_configs.bundle",
+            "AssetNames": []
+        },
+        "SeasonsBanners": [
+            {
+                "BundleName": "seasons_banners_soz",
+                "BundleId": 0,
+                "BundleHierarchy": "None",
+                "BundlePriority": "Required",
+                "ContentType": "Image",
+                "BundleType": "SeasonBanners",
+                "PriceType": "",
+                "LastVersion": 1,
+                "FolderVersion": 2,
+                "Url": "MainMenuNew/2/seasons_banners_soz.bundle",
+                "AssetNames": []
+            },
+            {
+                "BundleName": "seasons_banners_itsd",
+                "BundleId": 0,
+                "BundleHierarchy": "None",
+                "BundlePriority": "Required",
+                "ContentType": "Image",
+                "BundleType": "SeasonBanners",
+                "PriceType": "",
+                "LastVersion": 1,
+                "FolderVersion": 2,
+                "Url": "MainMenuNew/2/seasons_banners_itsd.bundle",
+                "AssetNames": []
+            },
+            {
+                "BundleName": "seasons_banners_cg",
+                "BundleId": 0,
+                "BundleHierarchy": "None",
+                "BundlePriority": "Required",
+                "ContentType": "Image",
+                "BundleType": "SeasonBanners",
+                "PriceType": "",
+                "LastVersion": 1,
+                "FolderVersion": 2,
+                "Url": "MainMenuNew/2/seasons_banners_cg.bundle",
+                "AssetNames": []
+            },
+            {
+                "BundleName": "seasons_banners_pn",
+                "BundleId": 0,
+                "BundleHierarchy": "None",
+                "BundlePriority": "Required",
+                "ContentType": "Image",
+                "BundleType": "SeasonBanners",
+                "PriceType": "",
+                "LastVersion": 1,
+                "FolderVersion": 2,
+                "Url": "MainMenuNew/2/seasons_banners_pn.bundle",
+                "AssetNames": []
+            },
+            {
+                "BundleName": "seasons_banners_rit",
+                "BundleId": 0,
+                "BundleHierarchy": "None",
+                "BundlePriority": "Required",
+                "ContentType": "Image",
+                "BundleType": "SeasonBanners",
+                "PriceType": "",
+                "LastVersion": 1,
+                "FolderVersion": 2,
+                "Url": "MainMenuNew/2/seasons_banners_rit.bundle",
+                "AssetNames": []
+            },
+            {
+                "BundleName": "seasons_banners_ianp",
+                "BundleId": 0,
+                "BundleHierarchy": "None",
+                "BundlePriority": "Required",
+                "ContentType": "Image",
+                "BundleType": "SeasonBanners",
+                "PriceType": "",
+                "LastVersion": 1,
+                "FolderVersion": 2,
+                "Url": "MainMenuNew/2/seasons_banners_ianp.bundle",
+                "AssetNames": []
+            },
+            {
+                "BundleName": "seasons_banners_es",
+                "BundleId": 0,
+                "BundleHierarchy": "None",
+                "BundlePriority": "Required",
+                "ContentType": "Image",
+                "BundleType": "SeasonBanners",
+                "PriceType": "",
+                "LastVersion": 1,
+                "FolderVersion": 2,
+                "Url": "MainMenuNew/2/seasons_banners_es.bundle",
+                "AssetNames": []
+            },
+            {
+                "BundleName": "seasons_banners_ni",
+                "BundleId": 0,
+                "BundleHierarchy": "None",
+                "BundlePriority": "Required",
+                "ContentType": "Image",
+                "BundleType": "SeasonBanners",
+                "PriceType": "",
+                "LastVersion": 0,
+                "FolderVersion": 2,
+                "Url": "MainMenuNew/2/seasons_banners_ni.bundle",
+                "AssetNames": []
+            }
+        ]
+    }
+}
