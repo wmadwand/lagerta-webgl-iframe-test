@@ -51,11 +51,11 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/lg02.loader.js";
+      var loaderUrl = buildUrl + "/lg04.loader.js";
       var config = {
-        dataUrl: buildUrl + "/lg02.data",
-        frameworkUrl: buildUrl + "/lg02.framework.js",
-        codeUrl: buildUrl + "/lg02.wasm",
+        dataUrl: buildUrl + "/lg04.data",
+        frameworkUrl: buildUrl + "/lg04.framework.js",
+        codeUrl: buildUrl + "/lg04.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Novella",
         productName: "Lagerta",
@@ -63,9 +63,22 @@
         showBanner: unityShowBanner,
       };
 
-      if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
-        // Lower resolution on mobile for better performance (optional)
-        // config.devicePixelRatio = 1;
+      // ��������: ������� ���������� �� ��������� ��� ������������������
+      var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+      if (isMobile) {
+        // ���������� ���������� ���������� �� ���������
+        config.devicePixelRatio = 0.5; // ��� 0.75 ���� ����� ����� ��������
+        
+        // ������������ ������ canvas ��� ���������
+        var maxMobileWidth = 720;  // ������ 1080
+        var maxMobileHeight = 1280; // ������ 1920
+        
+        canvas.width = maxMobileWidth;
+        canvas.height = maxMobileHeight;
+      } else {
+        // Desktop - ������ ����������
+        canvas.width = 1080;
+        canvas.height = 1920;
       }
 
       loadingBar.style.display = "block";
@@ -77,6 +90,39 @@
           progressBarFull.style.width = 100 * progress + "%";
         }).then((unityInstance) => {
           loadingBar.style.display = "none";
+          
+          // ���������� ������
+          function resizeCanvas() {
+            var container = document.querySelector("#unity-container");
+            var canvas = document.querySelector("#unity-canvas");
+            
+            var aspectRatio = 1080 / 1920; // ���� ����������� 9:16
+            var containerWidth = container.clientWidth;
+            var containerHeight = container.clientHeight;
+            
+            var canvasWidth, canvasHeight;
+            
+            if (containerWidth / containerHeight > aspectRatio) {
+              // ��������� ���� - ��������� �� ������
+              canvasHeight = containerHeight;
+              canvasWidth = canvasHeight * aspectRatio;
+            } else {
+              // ��������� ���� - ��������� �� ������
+              canvasWidth = containerWidth;
+              canvasHeight = canvasWidth / aspectRatio;
+            }
+            
+            canvas.style.width = canvasWidth + 'px';
+            canvas.style.height = canvasHeight + 'px';
+          }
+          
+          // �������� ��� �������� � ��� ��������� �������/����������
+          window.addEventListener('resize', resizeCanvas);
+          window.addEventListener('orientationchange', function() {
+            setTimeout(resizeCanvas, 100); // �������� ��� iOS
+          });
+          resizeCanvas();
+          
           fullscreenButton.onclick = () => {
             if (document.body.requestFullscreen) {
               document.body.requestFullscreen();
@@ -89,8 +135,11 @@
         });
       };
 
+
       document.body.appendChild(script);
     </script>
+
+    <script src="unity-fullscreen-button.js"></script>
 
     <!-- Mobile console ��� ������� -->
     <script src="https://cdn.jsdelivr.net/npm/eruda"></script>
