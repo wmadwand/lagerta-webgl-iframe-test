@@ -65,6 +65,7 @@
     <type fullname="Code.Meta.Wardrobe.UI.CostumesPanel" preserve="all" />
     <type fullname="Code.Meta.Wardrobe.UI.CurrencyAccountPanel" preserve="all" />
     <type fullname="Code.Meta.Wardrobe.UI.HairStylePanel" preserve="all" />
+    <type fullname="Code.Meta.Wardrobe.UI.MakeupPanel" preserve="all" />
     <type fullname="Code.Meta.Wardrobe.UI.WardrobeButton" preserve="all" />
     <type fullname="Code.Meta.Wardrobe.UI.WardrobeCharactersPanel" preserve="all" />
     <type fullname="Code.Meta.Wardrobe.UI.WardrobeController" preserve="all" />

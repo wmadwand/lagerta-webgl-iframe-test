@@ -61,15 +61,15 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/lg06.loader.js";
+      var loaderUrl = buildUrl + "/lg09.loader.js";
       var config = {
-        dataUrl: buildUrl + "/lg06.data.unityweb",
-        frameworkUrl: buildUrl + "/lg06.framework.js.unityweb",
-        codeUrl: buildUrl + "/lg06.wasm.unityweb",
+        dataUrl: buildUrl + "/lg09.data.unityweb",
+        frameworkUrl: buildUrl + "/lg09.framework.js.unityweb",
+        codeUrl: buildUrl + "/lg09.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Novella",
         productName: "Lagerta",
-        productVersion: "1.5.71",
+        productVersion: "1.5.75",
         showBanner: unityShowBanner,
       };
 
@@ -113,6 +113,7 @@
         // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
 
         container.className = "unity-desktop";
+        canvas.className = "unity-desktop";
         canvas.style.width = "1080px";
         canvas.style.height = "1920px";
       }
@@ -140,7 +141,7 @@
       document.body.appendChild(script);
       </script>
 
-    <!-- Mobile console ��� ������� -->
+    <!-- Mobile console for debug -->
     <script src="https://cdn.jsdelivr.net/npm/eruda"></script>
     <script>eruda.init();</script>
 
