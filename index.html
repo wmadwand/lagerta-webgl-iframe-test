@@ -61,11 +61,11 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/lg09.loader.js";
+      var loaderUrl = buildUrl + "/lg01.loader.js";
       var config = {
-        dataUrl: buildUrl + "/lg09.data.unityweb",
-        frameworkUrl: buildUrl + "/lg09.framework.js.unityweb",
-        codeUrl: buildUrl + "/lg09.wasm.unityweb",
+        dataUrl: buildUrl + "/lg01.data.unityweb",
+        frameworkUrl: buildUrl + "/lg01.framework.js.unityweb",
+        codeUrl: buildUrl + "/lg01.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Novella",
         productName: "Lagerta",
@@ -89,7 +89,7 @@
       // JS_FileSystem_Sync() behavior, but in future Unity version, this will be
       // expected to change.
 
-      if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
+      if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
         // Mobile device style: fill the whole browser client area with the game canvas:
 
         var meta = document.createElement('meta');
@@ -101,7 +101,7 @@
 
         // To lower canvas resolution on mobile devices to gain some
         // performance, uncomment the following line:
-        config.devicePixelRatio = 1;
+        config.devicePixelRatio = 1.5;
 
         // position the diagnostics icon in the corner on the canvas
         diagnostics_icon.style.position = "fixed";
@@ -131,7 +131,7 @@
                   unityDiagnostics.openDiagnosticsDiv(unityInstance.GetMemoryInfo);
                 };
                 fullscreenButton.onclick = () => {
-                  unityInstance.SetFullscreen(1);
+                  document.makeFullscreen('unity-container');
                 };
               }).catch((message) => {
                 alert(message);
