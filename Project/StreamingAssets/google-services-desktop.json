@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "568289894181",
+    "project_id": "lagerta-2c55e",
+    "storage_bucket": "lagerta-2c55e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:568289894181:android:5fba212121f81ba69e44cc",
+        "android_client_info": {
+          "package_name": "com.Novella.Lagerta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "568289894181-kf56h2pvu8k4dhs1dt0pluemrvpm0am9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0v-pxoYK0jFbdYh_0ByxVErgt8l3m4Ko"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "568289894181-kf56h2pvu8k4dhs1dt0pluemrvpm0am9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:568289894181:android:e33d414200687c359e44cc",
+        "android_client_info": {
+          "package_name": "com.Novels.Lagerta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "568289894181-kf56h2pvu8k4dhs1dt0pluemrvpm0am9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0v-pxoYK0jFbdYh_0ByxVErgt8l3m4Ko"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "568289894181-kf56h2pvu8k4dhs1dt0pluemrvpm0am9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
