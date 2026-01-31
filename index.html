@@ -61,11 +61,11 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/lg02.loader.js";
+      var loaderUrl = buildUrl + "/lg03.loader.js";
       var config = {
-        dataUrl: buildUrl + "/lg02.data.unityweb",
-        frameworkUrl: buildUrl + "/lg02.framework.js.unityweb",
-        codeUrl: buildUrl + "/lg02.wasm.unityweb",
+        dataUrl: buildUrl + "/lg03.data.unityweb",
+        frameworkUrl: buildUrl + "/lg03.framework.js.unityweb",
+        codeUrl: buildUrl + "/lg03.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Novella",
         productName: "Lagerta",
@@ -131,7 +131,7 @@
                   unityDiagnostics.openDiagnosticsDiv(unityInstance.GetMemoryInfo);
                 };
                 fullscreenButton.onclick = () => {
-                  unityInstance.SetFullscreen(1);
+                  document.makeFullscreen('unity-container');
                 };
               }).catch((message) => {
                 alert(message);
